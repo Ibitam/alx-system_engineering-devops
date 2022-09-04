@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent:staff .
+find ./ -type d chown vincent:staff -o -type f chown vincent:staff
